@@ -1,0 +1,146 @@
+#outer_wrapper{
+	background: url('outer_bg.png') repeat-x top left;	
+}
+.widgets{
+	background: url('widgets.png') no-repeat ;
+}
+.banners{
+	background: url('banners.png') no-repeat ;
+}
+.buttons{
+	background: url('buttons.png') no-repeat;
+}
+#nav-left .nav-left li {
+  background: url('icon_nav_left.png') no-repeat center left;
+}
+#footer1{
+	  background: url('footer_1.png') repeat-x;
+}
+#footer2{
+	  background: url('footer_2.png') repeat-x;
+}
+#footer1 .footer .column2 ul li{
+	  background:url("icon_articles.png") no-repeat 0 12px;
+}
+#collection .grid li .price_bg{
+	background:url('price_bg.png') no-repeat;
+}
+
+/*------------------- Font Color --------------------*/
+#header,
+#main{
+  color:#333;
+}
+#header .nav2 li a:hover,
+#header .logo_wrapper .site_name,
+#header .cart_status a span,
+#header .nav li a,
+#sidebar1 .account,
+#sidebar1 .account fieldset .signup,
+#sidebar1 .account fieldset .button,
+#footer1,
+#footer1 .column2 li a,
+#cart .padding  .items th,
+#discussion .padding th,
+#collection .subcategory a,
+#sidebar1 .account .logged_in li a{
+  color:#fff;
+}
+#sidebar1,
+.nav-left .list li a,
+#footer2,
+#footer1 .column2 li a:hover,
+#footer2 .footer .nav a:hover,
+#sidebar1 .account .logged_in li a:hover{
+  color:#000;
+}
+a,
+#header .logo_wrapper .site_slogan,
+#message .padding a,
+#collection .grid li a{
+  color:#666;
+}
+#footer1 .column2 li small{
+	color:#d3d3d3;
+}
+a:hover,
+#header .nav li a:hover,
+#header .cart_status a:hover span,
+#sidebar1 .account fieldset .text,
+#discussion a:hover{
+  color:#000;
+}
+#header .nav2 li a{
+  color:#bdb844;  
+}
+#sidebar1 .account fieldset .signup:hover,
+#nav-left h2,
+#nav-left .nav-left li a:hover,
+#message .padding a:hover,
+#collection .grid li a:hover,
+#collection .grid li .price,
+#message .topic,
+#collection .topic,
+#footer2 .footer .nav a,
+#page .topic,
+#page .padding a:hover,
+#blog .topic,
+#cart .topic,
+#cart a:hover,
+#discussion .topic,
+#product a:hover,
+#blog a:hover,
+#blog .excerpt a,
+#collection .subcategory a:hover,
+#sidebar1 .nav-left .active a,
+#sidebar1 .account .logged_in h2 span{
+	color:#599780;
+}
+/*------------------- Background Color --------------------*/
+#header .nav2 li a{
+  background: url('nav_bg.png') repeat-x;  
+}
+#header .nav2 li a:hover{
+	background:none;
+}
+#sidebar1 .account .logged_in h2{
+	background-color:#fff;	
+}
+#sidebar1 .account fieldset .button{
+	background-color:#599780;
+}
+#discussion .padding th,
+#cart .padding  .items th,
+#collection .subcategory a{
+	background-color:#c1bc45;
+}
+#sidebar1 .account fieldset .signup{
+	background-color:#bfba45;
+}
+#sidebar1 .account fieldset .signup:hover,
+#collection .subcategory a:hover{
+	background-color:#fff;
+}
+#discussion .listing .hover,
+#discussion #comments .meta{
+	background-color:#f0f9f6;
+}
+#footer1 .footer_wrapper{
+	background-color:#72ad97;
+}
+/*------------------- Border Color --------------------*/
+#blog .padding li,
+#nav-left .nav-left .list li,
+#discussion .listing{
+  border-bottom:1px dotted #599780;  
+}
+#frontpage #message,
+#discussion #comments .meta{
+	border: 2px dotted #c1bc45;
+}
+#footer1 .footer .column1 .socials_wrapper{
+	border-top: 1px dashed #fff;
+}
+#footer1 .footer .column2 ul li{
+	border-bottom:1px dotted #fff;
+}
